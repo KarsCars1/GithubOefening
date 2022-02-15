@@ -6,11 +6,16 @@ public class Main {
         double a = 50.0;
         double b = 2.1;
         System.out.println(a + " + " + b + ": " + (a + b));
+        System.out.println(multiply(a, b));
         System.out.println(substract(a, b));
     }
 
     public static double substract(double a, double b){
         return a - b;
+    }
+
+    public static double multiply(double a, double b){
+        return a * b;
     }
 
     public static void printHelloWorld(){
