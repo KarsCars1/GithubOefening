@@ -3,7 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        printHelloWorld();
+        double a = 50.0;
+        double b = 2.1;
+        System.out.println(a + " + " + b + ": " + (a + b));
     }
 
     public static void printHelloWorld(){
